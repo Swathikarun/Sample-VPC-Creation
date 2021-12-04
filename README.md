@@ -1,8 +1,8 @@
-# Create VPC using Terraform
+# Create a sample VPC using Terraform
 
 ## Objective
 
-Build a tf file to create VPC usig Terraform tool
+Build a tf file to create VPC usig Terraform tool 
 
 ## Prerequisites
 
