@@ -14,21 +14,27 @@ Build a tf file to create VPC usig Terraform tool
 
 - To install terraform, run the below commands : 
 
-``` $ wget https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_linux_amd64.zip```
+```sh 
+$ wget https://releases.hashicorp.com/terraform/1.0.11/terraform_1.0.11_linux_amd64.zip
 
-```$ unzip terraform_1.0.11_linux_amd64.zip```
+$ unzip terraform_1.0.11_linux_amd64.zip
 
-```$ mv terraform /usr/bin/```
+$ mv terraform /usr/bin/
+```
 
 ## Check the terraform version
 
-```$ terraform version```
+```sh
+$ terraform version
+```
 
 ## Usage
 
 - Create a directory mycloud ad navigate into it
 
-```$ mkdir mycloud```
+```sh
+$ mkdir mycloud
+```
 
 - Mention the IAM authentication and region in the provider file
 
@@ -36,13 +42,17 @@ Build a tf file to create VPC usig Terraform tool
 
 - Execute the below commands : 
 
-```$ terraform init```
+```sh
+$ terraform init
+```
 
-```$ terraform validate```
+```sh
+$ terraform validate
 
-```$ terraform plan```
+$ terraform plan
 
-```$ terraform apply```
+$ terraform apply
+```
 
 ## Result
 
