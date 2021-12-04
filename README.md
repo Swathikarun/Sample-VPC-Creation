@@ -44,9 +44,7 @@ $ mkdir mycloud
 
 ```sh
 $ terraform init
-```
 
-```sh
 $ terraform validate
 
 $ terraform plan
